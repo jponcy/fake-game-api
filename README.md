@@ -10,7 +10,7 @@ Installation
 ------------
 
 ```bash
-git clone <remote>
+git clone https://github.com/jponcy/fake-game-api
 npm install
 ```
 
