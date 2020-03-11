@@ -1,0 +1,14 @@
+{
+  "name": "game-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx json-server games.json"
+  },
+  "author": "jonathan.poncy@tactfactory.com",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
