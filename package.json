@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx json-server games.json"
+    "start:merged": "npx json-server assets/merged.json",
+    "start:separed": "npx json-server assets/separed.json"
   },
   "author": "jonathan.poncy@tactfactory.com",
   "license": "MIT",

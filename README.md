@@ -17,7 +17,11 @@ npm install
 Run
 ---
 
-Run ```bash npm run start:dev ```. Then the server will be available on http://localhost:3000/ (by default). See ```bash npm run json-server --help ``` for more details about options.
+Many possible runs:
+1. **merged**: Simple case with only one API
+1. **separed**: RestFull case (one resource = one route)
+
+Run ```bash npm run start:<separed|merged> ```. Then the server will be available on http://localhost:3000/ (by default). See ```bash npm run json-server --help ``` for more details about options.
 
 Example of use:
 ```bash
