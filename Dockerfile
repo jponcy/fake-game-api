@@ -1,7 +1,7 @@
 FROM node:alpine3.13 as game-api-base
-LABEL maintainer="Jonathan Poncy <poncy.jonathan@gmail.com>"
-LABEL version="0.1"
-LABEL description="Build game-fake-api"
+LABEL maintainer="Jonathan Poncy <poncy.jonathan@gmail.com>" \
+      version="0.1" \
+      description="Build game-fake-api"
 ADD package.json /app/
 WORKDIR /app
 
